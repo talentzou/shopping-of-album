@@ -1,0 +1,28 @@
+.counter {
+    display: flex;
+    align-items: center;
+    margin-right: 20rem;
+}
+
+.count {
+    margin: 0 20rem;;
+}
+.add{
+    width: 40rem;
+    border: none;
+    height: 40rem;
+    line-height: 40rem;
+    font-size: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 0;
+}
+.reduce {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40rem;
+    height: 40rem;
+    font-size: 15px;
+    text-align: center;
+}

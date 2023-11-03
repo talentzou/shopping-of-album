@@ -1,0 +1,42 @@
+.confirm {
+    font-size: 30rem;
+    z-index: 9999;
+}
+.ConfirmWrap {
+    position: absolute;
+    width: 700rem;
+    height: 300rem;
+    border-radius: 20px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title {
+    height: 180rem;
+    display: flex;
+    align-items: center;
+    font-size: 40rem;
+    font-weight: bold;
+}
+.buttonWrap {
+    flex: auto;
+    display: flex;
+    align-items: center;
+}
+.buttonWrap button{
+    height: 80rem;
+    width: 150rem;
+    margin: 0 20rem;
+    border: none;
+    border-radius: 20rem;
+}
+.sure:active {
+    background-color: #e1abab;
+}

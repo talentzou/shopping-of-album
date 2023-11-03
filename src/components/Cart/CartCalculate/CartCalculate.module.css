@@ -1,0 +1,49 @@
+.calculate {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #aaa;
+    font-size: 30rem;
+    padding: 20rem;
+}
+.close {
+    font-size: 50rem;
+    background-color: #fff;
+    padding: 20rem;
+    border-radius: 50%;
+    margin-bottom: 10rem;
+}
+.albumList {
+    max-height: 800rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30rem;
+}
+.title {
+    border-bottom: #aaa;
+    padding-left: 30rem;
+    height: 100rem;
+    line-height: 100rem;
+}
+.list {
+    flex: auto;
+    overflow: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.total {
+    height: 100rem;
+    position: relative;
+}
+.location {
+    position: absolute;
+    right: 50rem;
+    bottom: 30rem;
+}
+.location::after{
+    content: '￥';
+
+}

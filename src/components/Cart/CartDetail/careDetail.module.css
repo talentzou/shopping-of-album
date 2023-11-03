@@ -1,0 +1,36 @@
+.Detail {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 120rem;
+    font-size: 50rem;
+    border-radius: 30rem;
+    max-height: 1000rem;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.buttonWrap {
+    display: flex;
+    justify-content: space-between;
+    height: 100rem;
+    align-items: center;
+    border-bottom: 1px solid rgba(194, 189, 189, 0.3);
+}
+.title {
+    font-size: 30rem;
+    padding-left: 50rem;
+    font-weight: bold;
+}
+.clear {
+    border: none;
+    height: 70rem;
+    padding-right: 30rem;
+    border-radius: 30rem;
+}
+.albumList {
+    flex: auto;
+    overflow: auto;
+    
+}
